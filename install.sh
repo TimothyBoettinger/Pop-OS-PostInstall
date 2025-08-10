@@ -11,6 +11,8 @@
 # 2. Make it executable: `chmod +x setup.sh`
 # 3. Run it: `./setup.sh`
 #
+# I run NVIDIA Drivers so will need this command but feel free to remove
+# sudo apt install system76-driver-nvidia
 
 # --- Script Configuration ---
 # Exit immediately if a command exits with a non-zero status.
@@ -34,6 +36,7 @@ apt_packages=(
     neovim
 
     # System & Utilities
+    system76-driver-nvidia
     gnome-tweaks
     ubuntu-restricted-extras
     neofetch
